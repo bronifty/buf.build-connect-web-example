@@ -5,9 +5,7 @@
 - to run this:
 
 ```
-npm config set @buf:registry https://npm.buf.build
-npm install @buf/bufbuild_connect-web_bufbuild_eliza
-npm start
+npm i && npm start
 ```
 
 type in a phrase and hit submit to see what Eliza the therapist has to say

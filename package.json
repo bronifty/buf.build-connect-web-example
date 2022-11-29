@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
+    "start": "npm run config && vite",
     "buf:generate": "buf generate buf.build/bufbuild/eliza",
-    "dev": "npm run config && vite",
+    "dev": "vite",
     "config": "npm config set @buf:registry https://npm.buf.build && npm i @bufbuild/connect-web",
     "build": "tsc && vite build",
     "preview": "vite preview"
