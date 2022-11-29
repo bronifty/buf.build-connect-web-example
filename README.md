@@ -6,3 +6,5 @@
 npm i
 npm start
 ```
+
+type in a phrase and hit submit to see what Eliza the therapist has to say
