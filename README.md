@@ -7,7 +7,6 @@
 ```
 npm config set @buf:registry https://npm.buf.build
 npm install @buf/bufbuild_connect-web_bufbuild_eliza
-npm i
 npm start
 ```
 
