@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "vite",
+    "start": "npm config set @buf:registry https://npm.buf.build && npm install @buf/bufbuild_connect-web_bufbuild_elizavite && npm run dev",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
