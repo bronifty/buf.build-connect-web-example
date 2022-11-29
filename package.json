@@ -6,14 +6,13 @@
   "scripts": {
     "start": "vite",
     "buf:generate": "buf generate buf.build/bufbuild/eliza",
-    "dev": "vite",
+    "dev": "npm run config && vite",
+    "config": "npm config set @buf:registry https://npm.buf.build && npm i @bufbuild/connect-web",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@buf/bufbuild_connect-web_bufbuild_eliza": "^1.13.7",
     "@bufbuild/connect-web": "^0.3.2",
-    "@bufbuild/protobuf": "^0.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
