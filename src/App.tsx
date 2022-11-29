@@ -8,7 +8,7 @@ import {
 } from "@bufbuild/connect-web";
 
 // Import service definition that you want to connect to.
-import { ElizaService } from "@buf/bufbuild_connect-web_bufbuild_eliza/buf/connect/demo/eliza/v1/eliza_connectweb";
+import { ElizaService } from "../gen/buf/connect/demo/eliza/v1/eliza_connectweb";
 
 // The transport defines what type of endpoint we're hitting.
 // In our example we'll be communicating with a Connect endpoint.
