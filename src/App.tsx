@@ -71,6 +71,7 @@ function App() {
           </li>
         ))}
       </ol>
+      <footer>Bronifty</footer>
     </>
   );
 }
