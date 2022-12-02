@@ -30,13 +30,8 @@ function App() {
   >([]);
   return (
     <>
-      <ol>
-        {messages.map((msg, index) => (
-          <li key={index}>
-            {`${msg.fromMe ? "ME:" : "ELIZA:"} ${msg.message}`}
-          </li>
-        ))}
-      </ol>
+      <h1>Talk to the Therapist</h1>
+
       <form
         onSubmit={async (e) => {
           e.preventDefault();
@@ -69,6 +64,13 @@ function App() {
         />
         <button type="submit">Send</button>
       </form>
+      <ol>
+        {messages.map((msg, index) => (
+          <li key={index}>
+            {`${msg.fromMe ? "ME:" : "ELIZA:"} ${msg.message}`}
+          </li>
+        ))}
+      </ol>
     </>
   );
 }
