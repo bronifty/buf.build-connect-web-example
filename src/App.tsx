@@ -56,8 +56,7 @@ function App() {
               message: response.sentence,
             },
           ]);
-        }}
-      >
+        }}>
         <input
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
@@ -71,7 +70,7 @@ function App() {
           </li>
         ))}
       </ol>
-      <footer>Bronifty</footer>
+      <footer></footer>
     </>
   );
 }
